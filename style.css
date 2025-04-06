@@ -1,60 +1,41 @@
-body{
+*{
+  margin: 0;
+  padding: 0;
   font-family: Tahoma;
-  background-color: #f5f5f5;
 }
 
 div{
+  text-align: center;
   border-top: 1px solid #d5d5d5;
+  padding: 50px;
+  background-color: #f5f5f5;
 }
 
-span{
+h1, h2, h3, p {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+p {
+  width: 930px;
+  line-height: 28px;
+  margin: 15px auto 30px auto;
+}
+
+span {
   font-weight: bold;
 }
 
-h1{
-  text-align: center;
-  margin-top: 0;
-  font-size: 32px;
-}
-
-h2{
-  font-size: 24px;
-}
-
-h3{
-  font-size: 18px;
-}
-
-p{
-  font-size: 16px;
-  width: 930px;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+img{
+  width: 190px;
 }
 
 a{
-  background-color: #49b970;
-  font-size: 14px;
-  text-align: center;
-  border-radius: 25px;
   padding: 10px 30px;
-}
-
-#Sobre{
-  padding: 50px;
-}
-
-#Sinopse{
-  padding: 50px;
-}
-
-#Autor{
-  padding: 50px;
-  width: 930px;
-}
-
-#Venda{
-  padding: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #49b970;
+  color: #ffffff;
+  border-radius: 25px;
 }
